@@ -1,0 +1,313 @@
+@media only screen and (min-width: 800px) {
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header#menu-fixo {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #000000;
+    color: #fff;
+    padding-top: 1px;
+    font-size: 18px;
+}
+
+header#menu-fixo a:hover {
+    text-decoration: underline;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+nav ul li {
+    margin-right: 20px;
+    transition: 1s;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#menu-fixo {
+    display: flex;
+    align-items: center;
+}
+
+#menu-fixo img {
+    width: 150px;
+    margin-right: 50px;
+    margin: 0 250px 0 100px;
+    height: 100%;
+}
+
+body {
+    background-color: rgb(236, 238, 238);
+    margin: auto;
+    padding: 0;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+}
+
+
+section {
+    width: 97%;
+    margin-top: 100px;
+    padding: 20px;
+    height: 600px;
+    border-radius: 18px;
+}
+
+section h2 {
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: center;
+    padding: 0;
+    margin-top: 25px;
+    font-size: 45px;
+}
+
+section#section0 {
+    background-image: url(../../images/fundo.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 97%;
+    height: 655px;
+    border-radius: 0;
+    margin-top: 55px;
+}
+
+section#section1 p {
+
+    font-size: 25px;
+    text-align: center;
+    padding: 15px;
+    margin: 0px 25px 10px 25px;
+    padding: 20px 60px 10px 60px;
+}
+
+section#section1 {
+    height: 400px;
+}
+
+section#section1 h2 {
+
+    margin-bottom: 30px;
+}
+
+.paragrafo {
+
+    background-color: rgb(216, 218, 218);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    border: 1px solid black;
+}
+
+
+
+.paragrafo {
+
+    margin-top: 10px;
+}
+
+section#section2 img {
+
+    display: flex;
+    float: right;
+    margin: 30px 100px 80px 100px;
+    border-radius: 15px;
+    height: 500px;
+    width: 600px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    border: 1px solid black;
+}
+
+section#section2 p {
+
+    text-align: justify;
+    font-size: 23px;
+    margin: 40px;
+}
+
+.tecnologia-description {
+
+    background-color: rgb(216, 218, 218);
+    margin: 30px 10px 0 100px;
+    padding: 20px;
+    border-radius: 30px;
+    width: 40%;
+    height: 458px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    border: 1px solid black;
+}
+
+.objetivo {
+    
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    flex: 1;
+    max-width: calc(33.33% - 20px);
+    box-sizing: border-box;
+    background-color: rgb(216, 218, 218);
+    height: 300px;
+    padding-top: 50px;
+    font-size: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    border: 1px solid black;
+}
+
+.objetivo p {
+
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: 'textos', Arial, Helvetica, sans-serif; 
+}
+
+.objetivo-box {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.image-with-text {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-with-text img {
+
+    max-width: 100%;
+}
+
+.image-text {
+
+    text-align: center;
+    margin-top: 10px;
+}
+
+.image-text h3 {
+
+    margin-bottom: 5px;
+}
+
+.image-text p {
+
+    margin-top: 0;
+}
+
+section#section4 img {
+
+    display: flex;
+    float: left;
+    border-radius: 15px;
+    margin: 30px 50px 0px 120px;
+    height: 500px;
+    width: 600px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    border: 1px solid black;
+}
+
+.publico-descricao {
+
+    background-color: rgb(216, 218, 218);
+    margin-left: 52%;
+    margin-top: 30px;
+    width: 40%;
+    height: 500px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+section#section4 p {
+
+    text-align: justify;
+    font-size: 23px;
+    margin: 40px;
+}
+
+section#section5 img {
+
+    display: flex;
+    float: right;
+    border-radius: 15px;
+    margin: 30px 100px 80px 100px;
+    height: 500px;
+    width: 600px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    border: 1px solid black;
+}
+
+section#section5 p {
+
+    text-align: justify;
+    font-size: 23px;
+    margin: 40px;
+}
+
+.beneficios-description {
+
+    background-color: rgb(216, 218, 218);
+    margin: 30px 10px 0 100px;
+    padding: 20px;
+    border-radius: 30px;
+    width: 40%;
+    height: 458px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    border: 1px solid black;
+}
+
+section#section6 {
+
+    height: 850px;
+    font-size: 20px;
+}
+
+section#section6 h2 {
+    
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+section#section6 img {
+
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    border: 1px solid black;
+
+}
+
+.text-container {
+
+    background-color: rgb(236, 238, 238);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+}
