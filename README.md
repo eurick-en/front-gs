@@ -10,3 +10,5 @@ Informações válidas sobre o sistema:
 - O exemplo de efeito diverso está na rolagem do menu de navegação.
 - O carrosel dinâmico está na section 6, junto com a manipulaçãp do DOM.
 - iniciar o projeto pelo "login.html"
+- https://eurick-en.github.io/web_dev/
+- gitpage está somente com a tela de login, pois não conseguimos redirecionar para a página home.
