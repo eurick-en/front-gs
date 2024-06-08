@@ -5,7 +5,7 @@ document.getElementById("login-form").addEventListener("submit", function(event)
     
     if (username === "123" && password === "123") {
         alert("Bem-vindo! Login bem-sucedido.");
-        window.location.href = "../Home/index.html";
+        window.location.href = "src/pages/Home/index.html";
     } else {
         alert("Credenciais inválidas. Por favor, tente novamente.");
     }
