@@ -9,3 +9,4 @@ Informações válidas sobre o sistema:
 - Login e senha: Ambos "123"
 - O exemplo de efeito diverso está na rolagem do menu de navegação.
 - O carrosel dinâmico está na section 6, junto com a manipulaçãp do DOM.
+- iniciar o projeto pelo "login.html"
