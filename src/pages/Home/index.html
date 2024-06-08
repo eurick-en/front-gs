@@ -8,15 +8,16 @@
     <title>Future Blue</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="../../../public/css/fonts.css">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="../../../public/css/slideshow.css">
 </head>
 
 <body>
     <div class="container">
         <header id="menu-fixo">
-            <a href="#section0"><img src="../../../images/logo-novo.png" alt="Logotipo da Future Blue"></a>
+
             <nav>
                 <ul>
+                    <a href="#section0"><img src="../../../images/logo-novo.png" alt="Logotipo da Future Blue"></a>
                     <li><a href="#section0"></a></li>
                     <li><a href="#section1">Problema</a></li>
                     <li><a href="#section2">Tecnologia</a></li>
@@ -118,7 +119,18 @@
 
             <section id="section6">
                 <div class="image-with-text">
-                    <img src="../../../images/ajudar2.jpg" alt="Ilustração representando a natureza">
+                    <div class="carousel">
+                        <div class="carousel-container">
+                            <div class="carousel-item"><img src="../../../images/ajudar2.jpg"
+                                    alt="Ilustração representando a natureza"></div>
+                            <div class="carousel-item"><img src="../../../images/carrossel1800.jpg"
+                                    alt="Ilustração representando a natureza"></div>
+                            <div class="carousel-item"><img src="../../../images/carrossel4.jpg"
+                                    alt="Ilustração representando a natureza"></div>
+                        </div>
+                        <button class="prev-btn">&lt;</button>
+                        <button class="next-btn">&gt;</button>
+                    </div>
                     <div class="text-container">
                         <h2>Como essa solução ajudará no dia a dia:</h2>
                         <div class="paragrafo">
@@ -138,6 +150,9 @@
             <p>© 2024 Future Blue. Todos os direitos reservados.</p>
         </footer>
     </div>
+
+    <script src="../../../public/js/slideshow.js"></script>
+    <script src="../../../public/js/index.js"></script>
 </body>
 
 </html>

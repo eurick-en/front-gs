@@ -13,6 +13,7 @@ header#menu-fixo {
     color: #fff;
     padding-top: 1px;
     font-size: 18px;
+    z-index: 1000;
 }
 
 header#menu-fixo a:hover {
@@ -49,8 +50,7 @@ nav ul li a {
 
 #menu-fixo img {
     width: 150px;
-    margin-right: 50px;
-    margin: 0 250px 0 100px;
+    margin: 0 190px 0 100px;
     height: 100%;
 }
 
@@ -123,6 +123,10 @@ section#section1 h2 {
 .paragrafo {
 
     margin-top: 10px;
+}
+
+section#section2 {
+    margin-top: 250px;
 }
 
 section#section2 img {

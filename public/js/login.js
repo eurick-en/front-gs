@@ -4,7 +4,7 @@ document.getElementById("login-form").addEventListener("submit", function(event)
     var password = document.getElementById("password").value;
     
     if (username === "123" && password === "123") {
-
+        alert("Bem-vindo! Login bem-sucedido.");
         window.location.href = "../Home/index.html";
     } else {
         alert("Credenciais inválidas. Por favor, tente novamente.");
